@@ -1,0 +1,29 @@
+.header-component {
+    background: #111214;
+  }
+  
+.header-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    gap: 30px;
+}
+  
+.header-list a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.header-list a:hover {
+  transition: 0.4s;
+  color: #191970;
+}
+
+@media (max-width: 550px) {
+  .header-list a {
+    font-size: 14px;
+  }
+}
